@@ -1,0 +1,118 @@
+
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+.structure {width:960px;}
+.title img {width:920px}
+.single_promo {margin-right: 70px; width: 273px;}
+.quote {font-size:25px;width:950px}
+.quote_bottom_left {margin-right: 20px; width: 667px;}
+.quote_bottom_right {width:273px}
+.single_promo_bottom  {margin-right: 30px; width: 298px;}
+.single_promo_bottom_images img {padding:5px;background:#fff;width:258px}
+.logo {margin:25px 0}
+.mainmenu {margin-top:37px}
+.slider_images {padding:10px}
+.slider {margin-bottom:50px}
+.quote_left_text {}
+.quote_right_link {}
+.quote_right_link p{padding:10px;float:left}
+.quote_right_link a {float: left;}
+.footer_copyright {font-size:12px;}
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.structure {width:750px;}
+.slider_images img {width:708px}
+.single_promo {margin-right: 30px; width: 230px;}
+.quote {font-size:20px;width:740px}
+.quote_bottom_left {margin-right: 20px; width: 500px;}
+.quote_bottom_right {width:230px}
+.single_promo_bottom  {margin-right: 30px; width: 228px;}
+.single_promo_bottom_images img {padding:5px;background:#fff;width:188px}
+.logo {margin:25px 0}
+.mainmenu {margin-top:37px}
+.slider_images {padding:10px}
+.slider {margin-bottom:50px}
+.quote_left_text {}
+.quote_right_link {}
+.quote_right_link p{padding:10px;float:left}
+.quote_right_link a {float: left;}
+.footer_copyright {font-size:12px;}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+body {background:white}
+.structure {width:300px;}
+.logo {margin:25px 0 25px 10px}
+.mainmenu {margin-bottom: 25px; margin-top: 0;}
+.slider_images {padding:5px}
+.slider_images img {width:271px}
+.slider {margin-bottom:20px}
+.single_promo {margin-bottom: 20px; margin-right: 0; width: 300px;}
+.quote_left_text, .quote_right_link  {text-align: center; width: 300px;}
+.quote_right_link p{padding:10px;float:none}
+.quote_right_link a {float: none; margin: 0 auto; width: 210px;}
+.quote_bottom_left {margin-right: 0px; width: 300px;margin-bottom:20px}
+.quote_bottom_right {width:300px}
+.single_promo_bottom  {margin-bottom: 20px; margin-right: 0; width: 298px;}
+.single_promo_bottom_images img {padding:5px;background:#fff;width:260px}
+.quote {font-size:20px;width:290px}
+.footer_copyright {font-size:10px;}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+body {background:white}
+#myVideo {position: fixed;}
+.structure {width:450px;}
+.title img{width:20px}
+.mainmenu {margin-bottom: 25px; margin-top: 0;}
+.slider_images {padding:5px}
+.slider_images img {width:420px}
+.slider {margin-bottom:20px}
+.single_promo {margin-bottom: 20px; margin-right: 0; width: 450px;}
+.quote_left_text, .quote_right_link  {text-align: center; width: 440px;}
+.quote_right_link p{padding:10px;float:none}
+.quote_right_link a {float: none; margin: 0 auto; width: 210px;}
+.quote_bottom_left {margin-right: 0px; width: 450px;margin-bottom:20px}
+.quote_bottom_right {width:450px}
+.single_promo_bottom  {margin-bottom: 20px; margin-right: 0; width: 448px;}
+.single_promo_bottom_images img {padding:5px;background:#fff;width:408px}
+.copyright {font-size:10px}
+.links{width:420px}
+
+}
